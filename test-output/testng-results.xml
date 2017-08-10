@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16989" started-at="2017-08-09T13:31:55Z" finished-at="2017-08-09T13:32:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16989" started-at="2017-08-09T13:31:55Z" finished-at="2017-08-09T13:32:12Z">
+      <class name="org.selenium.tutorial.main.MyTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.selenium.tutorial.main.MyTestNG@6f7fd0e6]" name="setUp" is-config="true" duration-ms="6238" started-at="2017-08-09T16:31:55Z" finished-at="2017-08-09T16:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testParameterWithXML(java.lang.String, java.lang.String)[pri:0, instance:org.selenium.tutorial.main.MyTestNG@6f7fd0e6]" name="testParameterWithXML" duration-ms="10718" started-at="2017-08-09T16:32:01Z" finished-at="2017-08-09T16:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- org.selenium.tutorial.main.MyTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
